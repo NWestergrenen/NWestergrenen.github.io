@@ -109,8 +109,8 @@
 
 	<h2 align="center">Density/heat map</h2>
 	<p> This is a interactive density map of all the collisions (nearly 650,000) in New York City from July 2012 - 2016.
-		<br> The number of collisions are represented by the color of the point, the darker the point is, the more collisions has happend at those exact coordinates. </br>
-	<br> <b>Zoom in/out on the map!</b> </br> </p>
+		The number of collisions are represented by the color of the point, the darker the point is, the more collisions has happend at those exact coordinates.
+	 <b>Zoom in/out on the map!</b> </p>
 	<center><div id="map1" align="center" style="width: 800px; height: 600px"></div></center>
 	<p> The most dense area is Manhattan, and the least dense is Staten Island. This makes perfect sense taking population and people travelling to and from Manhattan every day into account </p>
 
@@ -118,7 +118,7 @@
   <h2 align="center">Histogram of Vehicle Collisions in New York City, in the five different boroughs</h2>
 	<p align="center">
 		The histogram below shows all the collsions for each borough from year 2012 to 2016. The bottom "Normalized Data" shows the number of collision per capita in each borough.
-		<br> This gives another perspective of the collisions in each borough. Though keep in mind, that it is likely that the person(s) involved in the crash, is not from that paticular bourough. </br>
+		This gives another perspective of the collisions in each borough. Though keep in mind, that it is likely that the person(s) involved in the crash, is not from that paticular bourough.
 	</p>
 	<p align="center">
 	<input type="button" align="center" value="Original Data" id="p1" onclick="p1">
@@ -145,17 +145,17 @@
 
 	<h2 align="center">Six interesting contributing factors</h2>
 	<p align="center"> The dataset consists of over 50 different contributing factors which can cause a vehicle collision. Below are six factors we find interesting plottted.
-	<br> The factors chosen are also not too prevailing, otherwise the map would show nothing but colored dots. After all, over 650.000 vehicle collisions has occurred. </br> </p>
+	The factors chosen are also not too prevailing, otherwise the map would show nothing but colored dots. After all, over 650.000 vehicle collisions has occurred. </p>
   <div id="FunFacts" align="center"></div>
 
 	<p> It is kind of disturbing the amount of crashes are caused due to the driver being intoxicated in some way to prescribtion medication (nearly 13,000 times). </p>
 
 	<h2 align="center">Top 20 collision intersections vs top 20 locations of pot-hole complaints</h2>
 	<p > This interactive map shows the top 20 most dangerous intersections (red circles), and the 20 most complained-about pothole locations (blue circle).
-	<br> The radius of the circle is based on the number of crashes/complaints. </br> </p>
+	 The radius of the circle is based on the number of crashes/complaints. </p>
 	<center><div id="map2" style="width: 800px; height: 600px"></div></center>
 	<p> As seen on the map, there is one location where both collisions and pot-holes overlap. It is reasonable to assume that the pot-hole might be contributing to the crashes. Maybe New York City should fix these?
-	<br> Note that most collisions happen in Manhatten as previously stated, and by far most pot-hole complaints occurs on Staten Island. This might be due to families actually bothering to complain about the pot-holes, instead of just ignoring them. </br> </p>
+	 Note that most collisions happen in Manhatten as previously stated, and by far most pot-hole complaints occurs on Staten Island. This might be due to families actually bothering to complain about the pot-holes, instead of just ignoring them. </p>
 
 	<h2 align="center"> K-means map, with clusters </h2>
 	<p align="center"> K means have been chosen since we wanted to visualize how drunk driving incidents are distributed throughout the city of New York.
@@ -174,7 +174,7 @@
 
 	<div id="Kmeans" align="center"></div>
 <h2 align="center"> K-nearest neighbors </h2>
-<p> Map of 5-nearest neighbors showing Oversize vehicle(red), Illness(green) and Brake Diffective (blue).
+<p> Map of 5-nearest neighbors showing Oversize vehicle(red), Illness(green) and Brakes Deffective (blue).
 <br> Note, Staten Island is <b>not</b> included in the knn due to the boundery-box being a square. Making predictions based on other places that NYC would be flawed, to say the least.</br> </p>
 <center><img border="0.8" src="knn-5.png" width="600" height="400" /></center>
 
